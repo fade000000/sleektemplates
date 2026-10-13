@@ -1,45 +1,17 @@
 [
   {
-    "id": "community-starter",
-    "name": "Community Starter",
+    "id": "roblox-shopping",
+    "name": "Roblox Shopping Community",
     "tagline": "Info embed, tickets, staff roles and a live member counter.",
     "tags": ["Community", "Support", "Staff roles"],
     "setup": "20 min",
     "bots": ["ServerStats", "Ticket Tool", "Dyno"],
     "author": "mario118118",
-    "discordUrl": "https://discord.new/REPLACE_WITH_YOUR_TEMPLATE_CODE",
+    "discordUrl": "https://discord.new/JRqqjEW9PTtg",
     "channels": [
       { "name": "Info", "channels": ["t:welcome", "t:info", "t:announcements"] },
       { "name": "Support", "channels": ["t:open-a-ticket", "t:faq"] },
       { "name": "Stats", "channels": ["v:Discord Members: 0"] }
-    ]
-  },
-  {
-    "id": "gaming-hub",
-    "name": "Gaming Hub",
-    "tagline": "Game channels, LFG, clips and voice lounges. (Sample entry.)",
-    "tags": ["Gaming", "Community"],
-    "setup": "15 min",
-    "bots": ["Dyno", "MEE6"],
-    "author": "your name here",
-    "discordUrl": "https://discord.new/REPLACE_WITH_YOUR_TEMPLATE_CODE",
-    "channels": [
-      { "name": "Welcome", "channels": ["t:rules", "t:announcements"] },
-      { "name": "Play", "channels": ["t:looking-for-group", "t:clips", "v:Lobby", "v:Squad 1"] }
-    ]
-  },
-  {
-    "id": "study-lounge",
-    "name": "Study Lounge",
-    "tagline": "Focus rooms, resource sharing and a quiet-hours schedule. (Sample entry.)",
-    "tags": ["Education", "Community"],
-    "setup": "10 min",
-    "bots": ["Dyno"],
-    "author": "your name here",
-    "discordUrl": "https://discord.new/REPLACE_WITH_YOUR_TEMPLATE_CODE",
-    "channels": [
-      { "name": "Start here", "channels": ["t:rules", "t:introductions"] },
-      { "name": "Study", "channels": ["t:resources", "t:homework-help", "v:Focus room", "v:Group study"] }
     ]
   }
 ]
