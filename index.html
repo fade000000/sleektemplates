@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>sleektemplates: Discord server templates with setup guides</title>
+  <meta name="description" content="Browse ready-made Discord server templates. Each one comes with a step-by-step setup guide.">
+  <meta name="theme-color" content="#0d0f1e">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%238b93ff'/%3E%3Ctext x='16' y='24' font-size='22' text-anchor='middle' font-family='sans-serif' font-weight='800' fill='%230d0f1e'%3Es%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Hanken+Grotesk:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+  <div class="wrap">
+    <header class="top">
+      <a class="brand" href="./">sleek<span>templates</span></a>
+      <nav aria-label="Main"><a href="#templates">Browse</a></nav>
+    </header>
+
+    <section class="hero">
+      <div>
+        <h1>Discord servers, already built.</h1>
+        <p class="lede">Pick a template, follow its guide, and launch with channels, roles and bots ready to go.</p>
+        <a class="btn primary" href="#templates">Browse templates</a>
+      </div>
+
+      <div class="window" aria-label="Preview of a template's channels">
+        <div class="window-head">
+          <strong id="preview-title">Loading…</strong>
+          <span>Channel preview</span>
+        </div>
+        <div class="rail" id="preview-rail"></div>
+      </div>
+    </section>
+
+    <main class="library" id="templates">
+      <div class="library-head">
+        <div>
+          <h2>All templates</h2>
+          <p class="count" id="count" aria-live="polite"></p>
+        </div>
+        <input class="search" id="search" type="search" placeholder="Search templates" aria-label="Search templates" autocomplete="off">
+      </div>
+
+      <ul class="chips" id="chips" aria-label="Filter by tag"></ul>
+
+      <div class="grid" id="grid">
+        <p class="state">Loading templates…</p>
+      </div>
+      <noscript><p class="state">sleektemplates needs JavaScript to list templates.</p></noscript>
+    </main>
+  </div>
+
+  <footer class="foot">
+    <div class="wrap">sleektemplates. Free Discord server templates with setup guides.</div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
